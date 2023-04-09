@@ -34,3 +34,17 @@ console.log("Convert String to Number Using Number() ==== ", Convert = Number(fl
 // Converting numbers to String
 console.log("Convert Number to String USing  ==== ", Convert = num.toString(), typeof(Convert));
 
+
+// Chapter:    30   Controlling the length of decimals
+
+console.log("Chapter:    30   Controlling the length of decimals");
+
+let deci_num = 65.895455;
+
+
+
+// Converting strings to numbers);
+
+console.log("Limit Decimal values == till 0 Using num.toFixed(n)", Convert = deci_num.toFixed(0), typeof(Convert));
+
+console.log("Limit Decimal values == till 3 Using num.toFixed(n)", Convert = deci_num.toFixed(3), typeof(Convert));
