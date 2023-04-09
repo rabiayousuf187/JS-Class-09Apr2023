@@ -43,8 +43,51 @@ let deci_num = 65.895455;
 
 
 
-// Converting strings to numbers);
+// Converting Limit Decimal values 0);
 
 console.log("Limit Decimal values == till 0 Using num.toFixed(n)", Convert = deci_num.toFixed(0), typeof(Convert));
-
+// Converting Limit Decimal values 3);
 console.log("Limit Decimal values == till 3 Using num.toFixed(n)", Convert = deci_num.toFixed(3), typeof(Convert));
+
+
+// Chapter: 31 and 32 **** Getting the current date and time and Extracting parts of the date and time
+
+console.log("Chapter: 31 and 32 **** Getting the current date and time and Extracting parts of the date and time");
+
+let newDate = new Date();
+console.log("new Date === ", newDate, typeof(newDate));
+
+// get Day);
+let dayNames = ['Sun','Mon','Tue','Wed', 'Thu', 'Fri', 'Sat'];
+console.log("Get Day === .getDay()", newDate.getDay() , dayNames[newDate.getDay()]);
+
+// get Date);
+console.log("Get Date === .getDate()", newDate.getDate());
+
+// get Month);
+console.log("Get Month === .getMonth()", newDate.getMonth());
+
+// get Full Year);
+console.log("Get Full Year === ..getFullYea()", newDate.getFullYear());
+
+// get Hour);
+console.log("Get Hour === .getHours()", newDate.getHours());
+
+// get Min);
+console.log("Get MIn === .getMinutes()()", newDate.getMinutes());
+
+// get Sec);
+console.log("Get seconds === .getSeconds()", newDate.getSeconds());
+
+// get MilliSec);
+console.log("Get seconds === .getMilliseconds()", newDate.getMilliseconds());
+
+// get Time);
+console.log("Get MilliSeconds since midight of 1st Jan 1970 === .getTime()", newDate.getTime());
+
+// get Time Zone);
+console.log("Get getTimezoneOffset ===", newDate.getTimezoneOffset());
+
+console.log("TodAY'S dATE IS ==== ", newDate.getDate() + "-" +  (newDate.getMonth()+1) + "-" +newDate.getFullYear())
+
+
